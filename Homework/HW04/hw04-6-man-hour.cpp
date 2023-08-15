@@ -36,7 +36,7 @@ int main(){
     float cal ;
 
     printf("Input the Employees ID(Max. 10 chars): ");
-    scanf("%s",&ID);
+    scanf("%10s",&ID);
 
     printf("Input the working hrs: ");
     scanf("%d",&WokHrs);
