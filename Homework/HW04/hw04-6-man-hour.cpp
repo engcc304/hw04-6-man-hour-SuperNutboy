@@ -36,7 +36,7 @@ int main(){
     float cal ;
 
     printf("Input the Employees ID(Max. 10 chars): ");
-    scanf("%11s",ID);
+    scanf("%10s",ID);
 
     printf("Input the working hrs: ");
     scanf("%d",&WokHrs);
@@ -47,7 +47,7 @@ int main(){
     cal = WokHrs * Salary ;
 
     printf("Employees ID = %s\n",ID);
-    printf("Salary = U$ %0.2f",cal);
+    printf("Salary = U$ %.2f",cal);
 
     return 0;
 }
